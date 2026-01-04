@@ -1,0 +1,18 @@
+baseURL = 'https://kubełek.dev/'
+languageCode = 'pl-pl'
+title = 'Mój Blog'
+theme = 'PaperMod'
+
+[params]
+  description = "Blog o tech, AI i ogrodnictwie"
+  author = "Przemek"
+  
+[menu]
+  [[menu.main]]
+    name = "Posty"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "O mnie"
+    url = "/about/"
+    weight = 2
