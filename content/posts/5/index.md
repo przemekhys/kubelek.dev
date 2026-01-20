@@ -1,7 +1,7 @@
 ---
 title: "malinka-k3s"
 date: 2026-01-17T10:00:00+01:00
-draft: false
+draft: true
 tags: ["kubernetes", "k8s", "raspberry pi"]
 ---
 
