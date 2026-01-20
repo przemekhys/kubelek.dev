@@ -2,7 +2,7 @@
 title: "vibe coder"
 date: 2026-01-14T10:00:00+01:00
 draft: false
-tags: ["AI", "Home Assistant", "kubernetes", "k8s"]
+tags: ["AI", "Home Assistant", "kubernetes", "k8s", "homeassistant-operator"]
 ---
 
 ## Wydałem kasę na AI i teraz muszę to jakoś usprawiedliwić
