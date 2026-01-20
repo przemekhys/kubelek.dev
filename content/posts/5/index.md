@@ -1,0 +1,10 @@
+---
+title: "malinka-k3s"
+date: 2026-01-17T10:00:00+01:00
+draft: false
+tags: ["kubernetes", "k8s", "raspberry pi"]
+---
+
+No dobra, trzeba gdzieś tego  [homeassistant-operator](https://github.com/przemekhys/homeassistant-operator) uruchomić. Nie spodziewam sie by ktokolwiek zainteresował się tym projektem aż do memonętu gdy będzie w miare stabilny i faktycznie udowodnione że chociaż 1 instacja działa na nim dobrze - wniosek jest prosty to musi być moja instancja. 
+Mam obecnie już uruchomionego jedną instancje HA na Raspberry Pi 5, uzywam tam [Home Assistant Operating System](https://github.com/home-assistant/operating-system) z [Supervisor](https://github.com/home-assistant/supervisor) uruchomionym jako contener, jak o tym myślę to o ile łatwiej było by użyć Supervisor w k8s gdyby nie skupiał się tak bardzo na uchaniu wszystkiego w jeden gotowym system - trzeba sie z tym pogodzić bo to podejście zaspokoaja potrzeby 99% uzytkowników HA a ten 1% i tak sobie poradzi czy to uruchamiajhąc HA na systemie jako usługue czy nie zależny kontener gdzieś w swomi orkiestratorze. Wiec mam już jedną malinkę pod swoiją opieką ale juz dziś jest "produkcyjna", włącza mi światła na podwurzu przed zmieszchem, wysyła powiadomineia gdy dzieci nie zamkną lodówki, powiadomi że zmywarka skonczyła prace i moge juz drugi wsad wsadzic czy jest infrastruktura do zbierania danych z czujników rozsianych po domu - chce by to działało jak najdłużej. Wiec naturlanym pomysłem jest dostawienie sobie drugiego środowika gdzie będę uruichamiał moje eksperymentalkne podjesiec z operatoram a gdy uznam że jest wystarczajco dobre przeniose się z moim "biznesem" na nowe "lepsze" instnacje HA. Zakupiłem wiec drugą malinę, identyczną mam zestaw z dyskiem SSD bo intensywne zapisywanie danych na karcie SD zazwyczja ja zabija a ja chce agregować sporo danych o moim domu, nie wspomne już że przy użycie etcd dla k3s to właściwie wyrok śmierci dla takiej karty SD a jak karta SD nie żyje to całość przestaje działać i jest to momęt gdy musisz sie dowiedzieć czy twoje backupy faktycznie działają.
+

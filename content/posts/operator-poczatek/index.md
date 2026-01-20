@@ -1,6 +1,6 @@
 ---
 title: "Operator początki"
-date: 2026-01-12T10:00:00+01:00
+date: 2026-01-21T10:00:00+01:00
 draft: false
 tags: ["AI", "Home Assistant","homeassistant-operator"]
 ---
